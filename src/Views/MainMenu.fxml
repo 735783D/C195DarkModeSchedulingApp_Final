@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainMenuController">
+   <children>
+      <Label fx:id="LabelMenuTitle" layoutX="115.0" layoutY="31.0" prefHeight="18.0" prefWidth="369.0" text="The Mainiest Of Menus!" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonCustomers" layoutX="254.0" layoutY="108.0" mnemonicParsing="false" onAction="#CustomersMenu" prefWidth="92.0" text="Customers" />
+      <Button fx:id="ButtonAppointments" layoutX="254.0" layoutY="187.0" mnemonicParsing="false" onAction="#AppointmentsMenu" text="Appointments" />
+      <Button fx:id="ButtonReports" layoutX="254.0" layoutY="264.0" mnemonicParsing="false" onAction="#ReportsMenu" prefWidth="92.0" text="Reports" />
+      <Button fx:id="ButtonLogout" layoutX="459.0" layoutY="338.0" mnemonicParsing="false" onAction="#Logout" text="Logout" />
+   </children>
+</AnchorPane>
